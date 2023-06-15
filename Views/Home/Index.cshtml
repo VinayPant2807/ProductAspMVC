@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    body {
+        background-color: #303030;
+        overflow-x: hidden;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 48px;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        line-height: 1.5;
+    }
+
+    ul {
+        list-style-type: disc;
+        margin-left: 20px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+            <div class="text-center">
+                <h1 class="display-4">Welcome to the CRUD Operation Demo</h1>
+                <h1><b>Project by: Bhrate</b></h1>
+                <p>This project demonstrates the implementation of CRUD (Create, Read, Update, Delete) operations using ASP.NET Core.</p>
+                <p>Key Features:</p>
+                <ul>
+                    <li>Create new products with the ability to specify product details.</li>
+                    <li>View a list of existing products with pagination support.</li>
+                    <li>Delete products individually.</li>
+                    <li>Update product names.</li>
+                </ul>
+                <p>To navigate through the application, you can use the navigation bar at the top of the page.</p>
+                <p>The application is designed with a simple and intuitive user interface for managing products.</p>
+                <p>Feel free to explore the functionality and experiment with creating, updating, and deleting products.</p>
+            </div>
+        </div>
+    </div>
+</div>
